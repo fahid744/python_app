@@ -21,8 +21,6 @@ def order(side, quantity, symbol,order_type=ORDER_TYPE_MARKET):
     return True
 
 
-
-
 @app.route("/")
 def index():
     return "<h1>Hello WORLD!</h1>"
